@@ -4,7 +4,6 @@ import css from "./NoteForm.module.css";
 import { createNote } from "@/lib/api";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import type { NoteTag } from "../../types/note";
-import Image from "next/image";
 
 interface NoteFormProps {
   onClose: () => void;
